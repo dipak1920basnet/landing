@@ -1,0 +1,53 @@
+.head_container
+{
+    border: 3px solid red;
+    /* height: 90px; */
+    padding:2%;
+    padding-left: 10%;
+    background-color: #1d2635;
+    color: white;
+}
+.upper_box
+{
+    border: 3px solid red;
+    /* height: 20px; */
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+.upper_box .link
+{
+    width: 30%;
+}
+.upper_box .link ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.upper_box .link ul li{
+    margin: 2%;
+}
+.upper_box .link ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.lower_box
+{
+    border: 3px solid red;
+    /* height: 20px; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+#Sign-up
+{
+    background-color: blue;
+    color:white;
+    padding: 2%;
+    width: 17%;
+    height: 6%;
+    border-radius: 9%;
+}
