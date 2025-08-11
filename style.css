@@ -1,6 +1,6 @@
 .head_container
 {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     /* height: 90px; */
     padding:2%;
     padding-left: 10%;
@@ -9,7 +9,7 @@
 }
 .upper_box
 {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     /* height: 20px; */
     margin-bottom: 2%;
     display: flex;
@@ -33,15 +33,25 @@
     text-decoration: none;
 }
 
-.lower_box
+.lower_box,
+.right-content
 {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     /* height: 20px; */
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
     padding-right: 3%;
 }
+
+.right-content
+{
+    border: 3px solid red;
+    text-align: center;
+    padding: 3%;
+    background-color: #2a1053;
+}
+
 #Sign-up
 {
     background-color: blue;
@@ -50,4 +60,122 @@
     width: 17%;
     height: 6%;
     border-radius: 9%;
+}
+
+.body_container
+{
+    /* border: 3px solid red; */
+    padding: 2%;
+}
+
+.body_container .top,
+.middle,
+.bottom
+{
+    /* border: 3px solid red; */
+    /* height: 90px; */
+    margin-top: 0%;
+    padding: 3%;
+    
+    /* align-items: center; */
+}
+
+.middle
+{
+    background-color: #e5e7eb;
+}
+
+.top .container,
+.middle .middle_container
+{
+    /* border: 3px solid red; */
+    /* height: 90px; */
+    margin-top: 1%;
+    /* padding: 2%; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.top .container .upper_content,
+.lower_content
+{
+    /* border: 3px solid red; */
+    /* margin-top: 1%; */
+    /* padding: 2%; */
+    text-align: center;
+}
+.top .container .lower_content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.image_boxes
+{
+    /* border: 3px solid red; */
+    /* height: 100px; */
+    margin-top: 1%;
+    margin: 2%;
+    padding: 2%;
+}
+.image
+{
+    border: 3px solid red;
+    height: 200px;
+    margin-top: 1%;
+    padding: 2%;
+    border-radius: 4%;
+}
+
+.text, .reference
+{
+    /* border: 3px solid red; */
+    height: 90px;
+    margin-top: 1%;
+    padding: 2%;
+}
+.text
+{
+    text-align: center;
+}
+.reference
+{
+    padding-top: 0%;
+    text-align: end;
+}
+
+.buttom_container
+{
+    background-color: blue;
+    padding: 2%;
+    /* border-radius: 10%; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom_left-content,
+.bottom_right-content
+{
+    /* border: 3px solid red; */
+    /* height: 90px; */
+    margin-top: 1%;
+    padding: 2%;
+    color: white;
+}
+
+#Sign-ups
+{
+    width: 130%;
+    height: 30%;
+    margin-right: 20%;
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+}
+
+footer
+{
+    align-items: center;
+    text-align: center;
+    background-color:  #1d2635;
+    padding: 1%;
 }
